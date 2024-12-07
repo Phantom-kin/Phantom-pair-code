@@ -25,7 +25,7 @@ FORK THIS REPOSITORY (Repo)
 
 Now Deploy
     <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/mouricedevs/gifted-pair-code' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Phantom-kin/katakuri-pair-code' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
 
 [`HERE'S AN EXAMPLE OUTPUT`](https://pair1.giftedtech.my.id)
 # `Owner`
