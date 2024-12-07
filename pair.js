@@ -103,27 +103,17 @@ router.get('/', async (req, res) => {
                     const session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: sid });
 
                     const GIFTED_MD_TEXT = `
-*✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
-______________________________
-╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
-║ You've Completed the First Step
-║ to Deploy a Whatsapp Bot.
-╚══════════════╝
-╔═════◇
-║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mouricedevs/gifted_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
-║ 💜💜💜
-╚══════════════╝ 
- 𝗚𝗜𝗙𝗧𝗘𝗗-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 5.𝟬.𝟬
-______________________________
+                        
+         *𝙺𝙰𝚃𝙰𝙺𝚄𝚁𝙸-𝙼𝙳 🧑‍💻*
+______________________________________
+*_Pair Code Successful Connected 🐦‍🔥_*
 
-Use your Session ID Above to Deploy your Bot.
-Check on YouTube Channel for Deployment Procedure(Ensure you have Github Account and Billed Heroku Account First.)
-Don't Forget To Give Star⭐ To My Repo`;
+* _𝙰𝚋𝚘𝚟𝚎 𝚒𝚜 𝚢𝚘𝚞𝚛 𝚂𝙴𝚂𝚂𝙸𝙾𝙽_𝙸𝙳🙄🥱 𝚞𝚜𝚎 𝚒𝚝 𝚝𝚘 𝚍𝚎𝚙𝚕𝚘𝚢 𝚊𝚕𝚕 𝚘𝚏 𝚔𝚊𝚝𝚊𝚔𝚞𝚛𝚒's 𝚋𝚘𝚝𝚜_
+
+*𝙽𝙱:* _*𝙳𝙾 𝙽𝙾𝚃 𝚂𝙷𝙰𝚁𝙴 𝚈𝙾𝚄𝚁 𝚂𝙴𝚂𝚂𝙸𝙾𝙽_𝙸𝙳 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴... 𝚂𝙷𝙰𝚁𝙴 𝙰𝚃 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝚁𝙸𝚂𝙺💀*_
+_____________________________________
+	
+_𝙽𝚘𝚠 𝚝𝚑𝚎 𝚜𝚎𝚌𝚘𝚗𝚍 𝚜𝚝𝚎𝚙 👑_ `;
                     await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: GIFTED_MD_TEXT }, { quoted: session });
 
                     await delay(100);
